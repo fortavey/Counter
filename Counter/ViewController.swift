@@ -9,7 +9,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var cnt: Int = -1 {
+    var cnt: Int = 0 {
         didSet {
             counterText.text = "Значение счётчика: \(cnt)"
         }
@@ -19,7 +19,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        cnt = 0
     }
 
 
